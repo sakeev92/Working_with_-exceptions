@@ -23,6 +23,7 @@ public class Main {
             return check(login, password, confirmPassword);
         } catch (WrongLoginException e) {
             return false;
+
         } catch (WrongPasswordException e) {
             return false;
         } catch (WrongConfirmPasswordException e) {
